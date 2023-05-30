@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: bold;
+    font-style: normal;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+html {
+  font-size: 16px;
+  cursor: crosshair;
+}
+
+::selection {
+  background-color: transparent;
+  color: springgreen;
+}
+
+body {
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  word-break: keep-all;
+  background-color: black;
+
+  -ms-overflow-style: none;
+  }
+ 
+  ::-webkit-scrollbar {
+    display: none;   
+}
+
+img, video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 2vw;
+  font-weight: 800;
+  line-height: 1.5;
+  color: white;
+}
+
+.third-frame {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -28%);
+  width: 100%;
+  height: auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
+
+.fourth-frame {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: red;
+}
+
+
+
+
+
+audio {
+  width: 100%;
+  min-width: 100px;
+  max-width: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
